@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .active {
+    @apply text-dim-100;
+  }
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: gray black;
+  }
+  html.dark {
+    scrollbar-width: thin;
+    scrollbar-color: black #b0b0b0;
+  }
+}
